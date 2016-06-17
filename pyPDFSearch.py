@@ -9,8 +9,8 @@ import PyPDF2 as pyPdf
 from threading import Thread
 
 cur_search_path = "" # keeps track of current search directory
-hash_dict = {} # dict of hashes to urls
-dirents = [] # list of websites already downloaded 
+hash_dict = {}       # dict of hashes to urls
+dirents = []         # list of websites already downloaded 
 
 def getPDFLinks(website):
     """

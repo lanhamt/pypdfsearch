@@ -23,6 +23,7 @@ If you encounter difficulties installing dependencies, you might have to rely
 on administrator access which can be done by using `sudo` before the above 
 command.
 
+
 ##Technical
 Also, pyPDFSearch will download online PDFs to your local machine to 
 search in the working directory where it is installed. When you are 
