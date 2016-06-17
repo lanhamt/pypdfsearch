@@ -8,12 +8,14 @@ PDFs concurrently.
 
 ##Installation
 You can run pyPDFSearch with Python3 by invoking the following at 
-command line:\n
+command line:
+
     `$ python3 pyPDFSearch.py`
 
 Note that you must have the following packages installed: requests, re, sys, 
 os, hashlib, _thread, threading, urllib, and PyPDF2. Dependencies can be 
-installed with the following:\n
+installed with the following:
+
     `$ pip install -r requirements.txt`
 
 
