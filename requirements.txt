@@ -2,3 +2,4 @@ PDF==1.0
 pyPdf==1.13
 PyPDF2==1.26.0
 requests==2.10.0
+request==0.0.6

@@ -14,10 +14,14 @@ command line:
 
 Note that you must have the following packages installed: requests, re, sys, 
 os, hashlib, _thread, threading, urllib, and PyPDF2. Dependencies can be 
-installed with the following:
+installed with the following (note you should install using pip3 due to 
+version requirements for the requests and pyPDF2 modules):
 
-    $ pip install -r requirements.txt
+    $ pip3 install -r requirements.txt
 
+If you encounter difficulties installing dependencies, you might have to rely
+on administrator access which can be done by using `sudo` before the above 
+command.
 
 ##Technical
 Also, pyPDFSearch will download online PDFs to your local machine to 
