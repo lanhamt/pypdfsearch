@@ -17,7 +17,11 @@ def getPDFLinks(website):
     Using the provided website, finds all PDF links and returns list 
     of well formed PDF urls. 
     """
-    response = requests.get(website)
+    try:
+        response = requests.get(website)
+    except:
+        print("Sorry, we couldn't find that website")
+        return None
     absolute_pdf = re.findall(r'http([^ <>]*).pdf', str(response.content))
     for idx, link in enumerate(absolute_pdf):
         absolute_pdf[idx] = "http" + link + ".pdf"
@@ -142,6 +146,7 @@ def search(website, query):
     if not url_hash in dirents:
         dirents.append(url_hash)
         pdf_links = getPDFLinks(website)
+        if not pdf_links: return
         confirmDownload(pdf_links)
         downloadAllFiles(pdf_links)
     searchFiles(query)
