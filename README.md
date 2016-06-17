@@ -16,7 +16,7 @@ Note that you must have the following packages installed: requests, re, sys,
 os, hashlib, _thread, threading, urllib, and PyPDF2. Dependencies can be 
 installed with the following:
 
-    ``$ pip install -r requirements.txt``
+    $ pip install -r requirements.txt
 
 
 ##Technical
