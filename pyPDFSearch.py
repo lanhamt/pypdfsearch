@@ -1,5 +1,9 @@
 #!/usr/bin/python
-
+"""
+Application for efficiently downloading,
+managing, and querying a corpus of pdfs -
+your very own pdf package manager :).
+"""
 # Attribution for pdf text extraction:
 # http://stackoverflow.com/questions/12571905/finding-on-which-page-a-search-string-is-located-in-a-pdf-document-using-python
 
